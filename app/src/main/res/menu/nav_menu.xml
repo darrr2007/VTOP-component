@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        tools:ignore="ExtraText">
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contact_us"
+            android:title="Contact Us"
+            />
+
+        <item
+            android:id="@+id/nav_myinfo"
+            android:icon="@drawable/my_info"
+            android:title="My Info"/>
+
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/course_enrollment"
+            android:title="Course Enrollment"/>
+
+        <item
+            android:id="@+id/nav_proctor"
+            android:icon="@drawable/proctor"
+            android:title="About Us"/>
+
+        <item
+            android:id="@+id/nav_academics"
+            android:icon="@drawable/academics"
+            android:title="Academics"/>
+
+        <item
+            android:id="@+id/nav_research"
+            android:icon="@drawable/library"
+            android:title="Research"/>
+
+        <item
+            android:id="@+id/nav_examination"
+            android:icon="@drawable/examination"
+            android:title="Examination"/>
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/research"
+            android:title="Services"/>
+
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/library"
+            android:title="Library"/>
+
+        <item
+            android:id="@+id/nav_bonafide"
+            android:icon="@drawable/bonafide"
+            android:title="Bonafide"/>
+
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/online_payments"
+            android:title="Online Payments"/>
+
+        <item
+            android:id="@+id/nav_hostels"
+            android:icon="@drawable/hostels"
+            android:title="Hostels"/>
+
+        <item
+            android:id="@+id/nav_receipt"
+            android:icon="@drawable/receipt_book"
+            android:title="Receipt Book"/>
+
+        <item
+            android:id="@+id/ascfdp"
+            android:icon="@drawable/ascfdp"
+            android:title="ASC FDP" />
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/events"
+            android:title="Events"/>
+
+        <item
+            android:id="@+id/nav_swfevents"
+            android:icon="@drawable/swf_events"
+            android:title="SWF Events"/>
+
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/my_account"
+            android:title="My Account"/>
+    </group>
+
+
+</menu>

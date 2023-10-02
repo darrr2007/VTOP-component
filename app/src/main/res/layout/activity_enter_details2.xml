@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/vtopbg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/vit_logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Details"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Personal Details division -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Details"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginVertical="8dp" />
+
+            <EditText
+                android:id="@+id/applicationNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Application Number" />
+
+            <EditText
+                android:id="@+id/studentNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Student Name" />
+
+            <!-- Existing fields -->
+
+            <EditText
+                android:id="@+id/dateOfBirthEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date Of Birth" />
+
+            <EditText
+                android:id="@+id/nativeLanguageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Native Language" />
+
+            <EditText
+                android:id="@+id/nativeStateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Native State" />
+
+            <EditText
+                android:id="@+id/bloodGroupEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Blood Group" />
+
+            <CheckBox
+                android:id="@+id/physicallyChallengedCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Physically Challenged" />
+
+            <EditText
+                android:id="@+id/communityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Community" />
+
+            <EditText
+                android:id="@+id/religionEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Religion" />
+
+            <EditText
+                android:id="@+id/casteEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Caste" />
+
+            <EditText
+                android:id="@+id/nationalityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nationality" />
+
+            <CheckBox
+                android:id="@+id/hostellerCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hosteller" />
+
+            <EditText
+                android:id="@+id/aadharNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Aadhar Number" />
+
+            <EditText
+                android:id="@+id/mobileNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number" />
+
+            <!-- Bank Details division -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank Details"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginVertical="8dp" />
+
+            <EditText
+                android:id="@+id/bankHolderNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bank Holder Name" />
+
+            <EditText
+                android:id="@+id/relationshipTypeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Relationship Type" />
+
+            <EditText
+                android:id="@+id/accountNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Account Number" />
+
+            <EditText
+                android:id="@+id/reenterAccountNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Re-Enter Account Number" />
+
+            <EditText
+                android:id="@+id/ifscCodeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="IFSC Code" />
+
+            <EditText
+                android:id="@+id/bankDetailsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bank Details" />
+
+            <!-- Address division -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginVertical="8dp" />
+
+            <EditText
+                android:id="@+id/streetNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Street Name" />
+
+            <EditText
+                android:id="@+id/areaNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Area Name" />
+
+            <EditText
+                android:id="@+id/cityEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City" />
+
+            <EditText
+                android:id="@+id/stateEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="State" />
+
+            <EditText
+                android:id="@+id/countryEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Country" />
+
+            <EditText
+                android:id="@+id/pincodeEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pincode" />
+
+            <EditText
+                android:id="@+id/phoneNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number (Land Line)" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+
+            <Button
+                android:id="@+id/submitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

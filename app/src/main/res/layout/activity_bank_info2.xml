@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankInfoActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="419dp"
+        android:layout_height="74dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vit_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Student Bank Information"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BACAFD"
+                android:padding="5dp"
+                android:text="Application Number"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/applicationNumberTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F3DEE7"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <!-- Add more TextViews here for the first row -->
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BACAFD"
+                android:padding="5dp"
+                android:text="Bank Holder Name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/bankHolderNameTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F3DEE7"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <!-- Add more TextViews here for the second row -->
+
+        </TableRow>
+
+        <!-- Add more TableRows here for additional rows -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BACAFD"
+                android:padding="5dp"
+                android:text="Relationship Type"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/relationshipTypeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F3DEE7"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <!-- Add more TextViews here for the second row -->
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BACAFD"
+                android:padding="5dp"
+                android:text="Account Number"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/accountNumberTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F3DEE7"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <!-- Add more TextViews here for the second row -->
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BACAFD"
+                android:padding="5dp"
+                android:text="Re-Enter Account Number"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/reenterAccountNumberTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F3DEE7"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <!-- Add more TextViews here for the second row -->
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BACAFD"
+                android:padding="5dp"
+                android:text="IFSC Code"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/ifscCodeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F3DEE7"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <!-- Add more TextViews here for the second row -->
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#BACAFD"
+                android:padding="5dp"
+                android:text="Bank Details"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/bankDetailsTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F3DEE7"
+                android:padding="5dp"
+                android:textColor="@color/black" />
+
+            <!-- Add more TextViews here for the second row -->
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

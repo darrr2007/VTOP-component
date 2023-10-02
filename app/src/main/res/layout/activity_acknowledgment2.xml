@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcknowledgmentActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="419dp"
+        android:layout_height="74dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vit_logo"
+        app:layout_constraintBottom_toTopOf="@id/table"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Acknowledgment Details"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="365dp"
+        android:layout_height="105dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heading"
+        app:layout_constraintVertical_bias="0.022">
+
+        <!-- First row -->
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Application No."
+
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Register No."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="#FFFFFF" />
+
+        </TableRow>
+
+        <!-- Second row -->
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Name"
+
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Programme"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <!-- Third row -->
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Campus"
+
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Branch"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/second"
+        android:layout_width="411dp"
+        android:layout_height="509dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/table"
+        app:layout_constraintVertical_bias="0.046">
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_width="11dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="1."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Mark List - HSC / +2"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="2."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Memorandum of Marks"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="3."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Transfer Certifiate or School leaving Certificate"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="4."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Migration Certificate (if available)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="5."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Score Card (if available)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="6."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Nativity Certificate (if available)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="N"/>
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="7."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Conduct Certificate (if available)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="8."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Community Certificate (if available)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="9."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Affidavit for Student"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="10."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Affidavit for Parent"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="N" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="11."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Hostel Affidavit"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="N" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="12."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Passport Size Photograph"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+        <TableRow tools:ignore="ExtraText">
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="13."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Student Profile"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />" />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="14."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Physical Fitness"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="N"  />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="15."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Age proof (photocopy)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="N"  />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="16."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Declaration (Student Sign)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="N"  />
+
+        </TableRow>
+
+        <TableRow>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#C2DCEA"
+                android:padding="5dp"
+                android:text="17."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#D3D1D2"
+                android:padding="5dp"
+                android:text="Declaration (Parent Sign)"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="#F1D5D4"
+                android:padding="5dp"
+                android:text="Y"
+                android:textColor="#34B52B"
+                tools:ignore="TextContrastCheck" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

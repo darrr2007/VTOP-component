@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "864192199817",
+    "project_id": "vtop-90548",
+    "storage_bucket": "vtop-90548.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864192199817:android:7a2e277d318609aa13da58",
+        "android_client_info": {
+          "package_name": "com.example.vtop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864192199817-6do76k33ufob56pdt4nubiikft3k5mg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTUtj41RB1HsZRA_6OLJMB2aYvhRTIfNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864192199817-6do76k33ufob56pdt4nubiikft3k5mg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
